@@ -38,7 +38,7 @@
 
 .btn.info,
 .btn-info {
-    background-color: #0366d6;
+    background-color: #009e60;
     color: white;
 }
 .btn.info:hover,
@@ -47,21 +47,21 @@
 }
 .btn.warning,
 .btn-warning {
-    background-color: #e36209;
+    background-color: #009e60;
     color: white;
 }
 .btn.warning:hover,
 .btn-warning:hover {
-    background-color: #e66512;
+    background-color: #ff0068;
 }
 .btn.danger,
 .btn-danger {
-    background-color: #e44231;
+    background-color: #ff0068;
     color: white;
 }
 .btn.danger:hover,
 .btn-danger:hover {
-    background-color: #e74534;
+    background-color: #ff0068;
 }
 .btn.success,
 .btn-success {

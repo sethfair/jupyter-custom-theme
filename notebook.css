@@ -7,6 +7,9 @@ body.notebook_app > #header {
     box-shadow: none;
     background-color: #fafbfc;
     border-bottom: solid 1px #e1e4e8;
+    padding-top: 1.5em;
+    padding-right: 30px;
+    padding-left: 10px;
 }
 body.notebook_app > #header #ipython_notebook,
 body.notebook_app > #header #kernel_logo_widget,
@@ -29,12 +32,14 @@ body.notebook_app > #header #save_widget {
 }
 body.notebook_app > #header #notebook_name {
     margin: 0;
-    color: #0366d6;
+    color: #24292e;
     font-weight: 600;
     font-size: 18px;
+    padding-left: 20px;
     height: auto;
     background-color: transparent !important;
     line-height: 1.1;
+    display: inline;
 }
 body.notebook_app > #header #kernel_indicator {
     border-left-width: 0;
@@ -144,13 +149,16 @@ body.notebook_app #maintoolbar-container .fa-keyboard-o {
     background-image: url("icons/keyboard.png");
 }
 
+body.notebook_app #maintoolbar-container .fa-list {
+    background-image: url("icons/toc.png");
+}
 
 body.notebook_app #notebook-container {
     box-shadow: none;
     padding: 16px 0;
 }
 body.notebook_app .prompt {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Fira Code", monospace;
     font-size: 14px;
     border-width: 0 !important;
     background-color: transparent !important;
@@ -165,12 +173,11 @@ body.notebook_app div.input_area {
     background-color: #f6f8fa;
     padding: 7px;
 }
-body.notebook_app div.cell div.inner_cell .rendered_html {
+body.notebook_app div.cell div.inner_cell .rendered_html,
+body.notebook_app.command_mode div.cell.selected div.inner_cell .rendered_html {
     border: solid 1px transparent;
 }
-body.notebook_app.command_mode div.cell.selected div.inner_cell .rendered_html {
-    border-color: #cfcfcf;
-}
+
 body.notebook_app div.cell {
     border-width: 0 !important;
 }
@@ -186,7 +193,7 @@ body.notebook_app.edit_mode div.cell.selected div.input_area {
 }
 body.notebook_app div.input_prompt {
     padding-top: 13px;
-    color: #0366d6;
+    color: #009e60;
 }
 
 body.notebook_app div#notebook {

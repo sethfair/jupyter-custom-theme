@@ -1,5 +1,5 @@
 .CodeMirror {
-    font-family: "Liberation Mono", monospace;
+    font-family: "Fira Code", monospace;
     font-size: 14px;
     line-height: 1.5;
 }
@@ -27,7 +27,7 @@
 }
 .cm-s-ipython span.cm-builtin {
     color: #005cc5;
-    /*color: #e36209;*/
+    /*color: #009e60;*/
 }
 .cm-s-ipython span.cm-number {
     color: #005cc5;
