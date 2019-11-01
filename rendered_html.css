@@ -72,3 +72,36 @@ body.notebook_app div.inner_cell .rendered_html li {
     margin-top: 36px;
     margin-bottom: 36px;
 }
+
+.rendered_html .dataframe thead {
+    font-size: 16px;
+    border-bottom: solid 1px #e1e4e8;
+}
+
+.rendered_html .dataframe thead th {
+    padding: 16px;
+    font-weight: 500;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.rendered_html .dataframe tbody th {
+    text-align: right;
+    font-size: 16px;
+}
+
+.rendered_html .dataframe tbody td {
+    text-align: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+}
+
+.rendered_html .dataframe tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.rendered_html .dataframe tr:nth-child(even) {
+    background-color: #f6f8fa;
+    opacity: 1;
+}
