@@ -23,9 +23,9 @@
 .icon-fixed-width {
     width: 16px;
     height: 16px;
-    background-size: 16px;
+    background-size: 12px;
     background-repeat: no-repeat;
-    opacity: 0.7;
+    opacity: 1;
     display: inline-block;
 }
 .btn:hover .fa {
@@ -71,4 +71,33 @@
 .btn.success:hover,
 .btn-success:hover {
     background-color: #30c653;
+}
+
+i.fa.fa-power-off.icon-remove.icon-large {
+	background-image: url('icons/power.png');
+	transform: translate(2px ,1px);
+}
+i.fa.fa.fa-home.icon-home.fa-lg {
+	background-image: url('icons/home.png');
+	transform: translate(2.4px, 2px);
+}
+i.fa.fa.fa-arrow-left.icon-arrow-left.fa-lg {
+	background-image: url('icons/left.png');
+	transform: translate(2.4px, 5px);
+}
+i.fa.fa.fa-arrow-right.icon-arrow-right.fa-lg {
+	background-image: url('icons/right.png');
+	transform: translate(2.4px, 4px);
+}
+i.fa.fa.fa-arrows.icon-move.fa-lg {
+	background-image: url('icons/arrows.png');
+	transform: translate(2.4px, 3px);
+}
+i.fa.fa.fa-square-o.icon-check-empty.fa-lg {
+	background-image: url('icons/zoom.png');
+	transform: translate(2.4px, 3px);
+}
+i.fa.fa.fa-floppy-o.icon-save.fa-lg {
+	background-image: url('icons/save.png');
+	transform: translate(2.4px, 3px);
 }

@@ -193,7 +193,7 @@ body.notebook_app.edit_mode div.cell.selected div.input_area {
 }
 body.notebook_app div.input_prompt {
     padding-top: 13px;
-    color: #009e60;
+    color: #999999 !important;
 }
 
 body.notebook_app div#notebook {
@@ -226,4 +226,11 @@ body.notebook_app .output_scroll {
 body.notebook_app div.output_prompt {
     padding-top: 17px;
     color: #586069;
+}
+body.notebook_app div.celltoolbar {
+	border: none;
+	background: #FFF;
+}
+body.notebook_app div#notebook-container {
+	width: 70vw !important;
 }
