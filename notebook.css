@@ -204,6 +204,7 @@ body.notebook_app div#notebook kbd,
 body.notebook_app div#notebook pre,
 body.notebook_app div#notebook samp {
     font-size: inherit;
+	font-weight: normal;
 }
 body.notebook_app div.output_area pre {
     color: #24292e;

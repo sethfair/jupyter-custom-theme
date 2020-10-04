@@ -1,5 +1,5 @@
 # jupyter-shamrock-theme
-Github-inspired theme for Jupyter notebook forked from [mmas/jupyter-github-theme](https://github.com/mmas/jupyter-github-theme).
+GitHub-inspired theme for Jupyter notebook forked from [mmas/jupyter-github-theme](https://github.com/mmas/jupyter-github-theme).
 
 ## Installation
   - Install required fonts from `fonts/`
