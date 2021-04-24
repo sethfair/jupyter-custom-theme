@@ -51,7 +51,7 @@ body.notebook_app .rendered_html pre {
     background-color: #f6f8fa;
 }
 body.notebook_app div.inner_cell .rendered_html a {
-    color: #009e60;
+    color: #0f62fe;
     text-decoration: none;
 }
 body.notebook_app div.inner_cell .rendered_html a:hover {
