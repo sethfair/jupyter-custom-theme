@@ -14,6 +14,5 @@ print(get_python_lib())
   
 ## Screenshots
 ![image](screenshots/sample_01.png)
-![image](screenshots/sample_02.png)
 ![image](screenshots/sample_03.png)
 ![image](screenshots/sample_04.png)

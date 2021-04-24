@@ -38,7 +38,7 @@
 
 .btn.info,
 .btn-info {
-    background-color: #009e60;
+    background-color: #0f62fe;
     color: white;
 }
 .btn.info:hover,
@@ -70,7 +70,7 @@
 }
 .btn.success:hover,
 .btn-success:hover {
-    background-color: #30c653;
+    background-color: #0f62fe;
 }
 
 i.fa.fa-power-off.icon-remove.icon-large {

@@ -35,7 +35,7 @@ body.notebook_app > #header #notebook_name {
     color: #24292e;
     font-weight: 600;
     font-size: 18px;
-    padding-left: 20px;
+    padding-left: 0px;
     height: auto;
     background-color: transparent !important;
     line-height: 1.1;

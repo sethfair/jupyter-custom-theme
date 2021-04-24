@@ -33,7 +33,7 @@ body:not(.notebook_app) #ipython-main-app .nav-tabs > li > a:hover {
     background-color: transparent;
 }
 body:not(.notebook_app) #ipython-main-app .nav-tabs > li.active > a {
-    border-color: #009e60 #e1e4e8 transparent #e1e4e8;
+    border-color: #0f62fe #e1e4e8 transparent #e1e4e8;
     color: #24292e;
     background-color: white;
 }
@@ -49,7 +49,7 @@ body:not(.notebook_app) .tab-content > .tab-pane {
 }
 #notebook_toolbar .tree-buttons #new-buttons .btn {
     color: white;
-    background-color: #009e60;
+    background-color: #0f62fe;
 }
 #notebook_toolbar .tree-buttons .btn-upload {
     padding: 4px 10px 0;
