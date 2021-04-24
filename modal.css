@@ -25,16 +25,17 @@
 .modal-body input {
     -moz-appearance: none;
     appearance: none;
-    border: solid 1px #e1e4e8;
+    border-bottom: solid 1px #e1e4e8;
     background-color: transparent;
     box-shadow: none !important;
     padding: 8px;
     border-radius: 0;
     font-family: "Fira Sans", sans-serif;
     font-size: 14px;
+    height: 20px;
 }
 .modal-body input:focus {
-    border-color: #a2a4a7;
+    border-color: #0f62fe;
 }
 .modal-footer {
     border-top-color: #e1e4e8;
