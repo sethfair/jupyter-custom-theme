@@ -39,7 +39,13 @@
 .modal-footer {
     border-top-color: #e1e4e8;
 }
+
+.modal-footer .btn.btn-default {
+    border-radius: 0;
+}
+
 .modal-footer .btn.btn-primary {
     color: white;
-    background-color: #2dc350;
+    background-color: #0f62fe;
+    border-radius: 0;
 }

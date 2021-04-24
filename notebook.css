@@ -189,7 +189,7 @@ body.notebook_app div.cell.selected div.input_area {
     border-color: #cfcfcf;
 }
 body.notebook_app.edit_mode div.cell.selected div.input_area {
-    border-color: #2dc350;
+    border-color: #969696;
 }
 body.notebook_app div.input_prompt {
     padding-top: 13px;
