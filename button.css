@@ -101,3 +101,8 @@ i.fa.fa.fa-floppy-o.icon-save.fa-lg {
 	background-image: url('icons/save.png');
 	transform: translate(2.4px, 3px);
 }
+
+i.fa.fa-play {
+    background-image: url('icons/play.png');
+    transform: translate(2.4px, 0px);
+}
